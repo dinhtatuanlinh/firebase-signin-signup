@@ -60,7 +60,7 @@ function App() {
             // This gives you a Facebook Access Token. You can use it to access the Facebook API.
             const credential = FacebookAuthProvider.credentialFromResult(result);
             const accessToken = credential.accessToken;
-            console.log(accessToken);
+            console.log(result);
             // ...
         })
         .catch((error) => {
